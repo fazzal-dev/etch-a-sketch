@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 80px;
+  font-size: 20px;
+}
+
+button,
+input {
+  font-size: inherit;
+  width: 100px;
+}
+
+.grid-container {
+  display: grid;
+  width: 500px;
+  height: 500px;
+  background-color: wheat;
+}
+
+.cell {
+  user-select: none;
+  color: blue;
+}
